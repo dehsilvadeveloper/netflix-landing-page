@@ -1,0 +1,120 @@
+/* HEADER */
+header {
+    display: inline-flex;
+    height: 10rem;
+    padding: 1.6rem 0;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+}
+
+header .container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .container .logo {
+    width: 70%;
+}
+
+header .container .logo img {
+    width: 15.25rem;
+}
+
+header .container .header-nav {
+    display: flex;
+    gap: 3rem;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+header .container .header-nav select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #bebebe;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    padding: 0.6rem 3.6rem;
+}
+
+header .container .header-nav img {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(233deg) brightness(104%) contrast(106%); /* Changing img svg color */
+    height: 20px;
+    margin-left: 6px;
+    margin-top: 6px;
+    position: absolute;
+}
+
+header .container .header-nav .btn-login {
+    font-size: 1.6rem;
+    height: 3.2rem;
+    padding: 0.4rem 1.6rem;
+    width: 8.24rem;
+}
+
+/* FOOTER */
+footer {
+    align-items: center;
+    color: rgba(255,255,255,0.7);
+    display: flex;
+    height: 39rem;
+}
+
+footer .container .heading {
+    font-size: 1.7rem;
+}
+
+footer ul.footer-nav {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2.4rem;
+}
+
+footer ul.footer-nav li {
+    font-size: 1.6rem;
+}
+
+footer .container .footer-extra-nav {
+    margin-top: 2.4rem;
+}
+
+footer .container .footer-extra-nav p {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+
+footer .container .footer-extra-nav select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #bebebe;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    padding: 0.6rem 3.6rem;
+}
+
+footer .container .footer-extra-nav img {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(233deg) brightness(104%) contrast(106%); /* Changing img svg color */
+    height: 20px;
+    margin-left: 8px;
+    margin-top: 6px;
+    position: absolute;
+}
+
+/* GENERAL / REUSABLE */
+.subtitle {
+    font-size: 2.4rem;
+}
+
+.divider {
+    background-color: #232323;
+    height: .75rem;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 128.6rem;
+    padding: 0px 1.5rem;
+    width: 100%;
+}

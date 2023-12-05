@@ -1,0 +1,345 @@
+/* RESPONSIVE STYLES */
+@media (max-width: 1368px) {
+
+    html, body {
+        font-size: 55%;
+    }
+
+}
+
+@media (max-width: 1025px) {
+
+    html, body {
+        font-size: 45%;
+    }
+
+    .feature-tv .container .caixa .right .tv .video video {
+        width: 48rem;
+    }
+
+}
+
+@media (max-width: 998px) {
+
+    html, body {
+        font-size: 40%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    html, body {
+        font-size: 50%;
+    }
+
+    .container {
+        max-width: 128.6rem;
+        padding: 0px 2.5rem;
+    }
+
+    .subtitle {
+        text-align: center;
+        width: 85%;
+    }
+
+    .hero .container .content h1 {
+        text-align: center;
+        width: 80%;
+    }
+
+    .feature-tv {
+        height: 85.8rem;
+        padding: 4rem 0;
+    }
+
+    .feature-tv .container .caixa {
+        flex-direction: column;
+    }
+
+    .feature-tv .container .caixa .left {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 4rem 0;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .feature-tv .container .caixa .right {
+        margin-top: -50px;
+        width: 85%;
+        z-index: 0
+    }
+
+    .feature-tv .container .caixa .right .tv .video video {
+        width: 58rem;
+    }
+
+    .feature-devices {
+        height: 85.8rem;
+        padding: 4rem 0;
+    }
+
+    .feature-devices .container .content {
+        flex-direction: column-reverse;
+    }
+
+    .feature-devices .container .content .right {
+        align-items: center;
+        width: 100%;
+    }
+
+    .feature-devices .container .content .left {
+        justify-content: center;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .feature-devices .container .content .left .devices .video video {
+        width: 51rem;
+    }
+
+    .feature-profiles {
+        height: 90rem;
+    }
+
+    .feature-profiles .container .content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feature-profiles .container .content .left {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .feature-profiles .container .content .right {
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .feature-profiles .container .content .right img {
+        width: 80%;
+    }
+
+    .feature-offline {
+        height: 90rem;
+    }
+    
+    .feature-offline .container .content {
+        flex-direction: column-reverse;
+    }
+
+    .feature-offline .container .content .right {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .feature-offline .container .content .right h2 {
+        text-align: center;
+    }
+
+    .feature-offline .container .content .left {
+        margin-top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    html, body {
+        font-size: 45%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .input-group {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 85%;
+    }
+
+    .input-group input {
+        width: 52.5rem;
+    }
+    
+    .container {
+        max-width: 128.6rem;
+        padding: 0px 2rem;
+    }
+
+    header .container .header-nav select {
+        display: none;
+    }
+
+    header .container .header-nav img {
+        display: none;
+    }
+
+    footer {
+        height: 65rem;
+    }
+
+    footer .container .heading {
+        font-size: 2rem;
+    }
+
+    footer ul.footer-nav {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+
+    footer ul.footer-nav li {
+        font-size: 2rem;
+    }
+
+    footer .container .footer-extra-nav select {
+        display: block;
+        margin-top: 4rem;
+    }
+
+    footer .container .footer-extra-nav img {
+        height: 15px;
+    }
+
+    footer .container .heading {
+        margin-bottom: 4rem;
+        text-align: left;
+    }
+
+    footer .container .footer-extra-nav p {
+        margin-top: 4rem;
+        text-align: left;
+    }
+
+    .hero .container .content p {
+        text-align: center;
+    }
+
+    .hero .container .content h1 {
+        font-size: 3.2rem;
+        width: 100%;
+    }
+
+    .hero .container .content h3 {
+        text-align: center;
+    }
+
+    .hero .container .content h4 {
+        text-align: center;
+    }
+
+    .feature-tv {
+        height: 65.8rem;
+    }
+
+    .feature-tv .container .caixa .right {
+        width: 100%;
+    }
+
+    .feature-tv .container .caixa .right .tv .video video {
+        width: 40rem;
+    }
+
+    .feature-devices {
+        height: 80.8rem;
+    }
+
+    .feature-devices .container .content .left .devices .video video {
+        width: 34rem;
+    }
+
+    .feature-profiles .container .content .left h2 {
+        text-align: center;
+    }
+
+    .feature-profiles .container .content .right img {
+        width: 100%;
+    }
+
+    .feature-offline {
+        height: 80rem;
+    }
+
+    .feature-offline .container .content .left img {
+        width: 100%;
+    }
+
+    .feature-offline .container .content .left .download {
+        width: 32.5rem;
+    }
+
+    .faq .container .content .signup h3 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .input-group input {
+        width: 100%;
+    }
+
+    .frm-email-signup {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .frm-email-signup .input-group {
+        width: 70%;
+    }
+
+    .feature-tv {
+        align-items: center;
+        display: flex;
+        height: 74.8rem;
+    }
+
+    .feature-tv .container .caixa .right .tv .video {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .feature-tv .container .caixa .right .tv .video video {
+        width: 75%;
+    }
+
+    .feature-devices {
+        height: 70.8rem;
+    }
+
+    .feature-devices .container .content .left .devices .video {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .feature-devices .container .content .left .devices .video video {
+        width: 62%;
+    }
+
+    .feature-profiles {
+        height: 80rem;
+    }
+
+    .feature-offline {
+        height: 70rem;
+    }
+    
+}

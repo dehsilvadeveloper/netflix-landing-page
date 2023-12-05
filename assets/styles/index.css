@@ -1,0 +1,418 @@
+/* IMPORTS */
+@import url('reset.css');
+@import url('base.css');
+@import url('layout.css');
+
+/* HERO */
+.hero {
+    align-items: center;
+    background-image: url("../images/header-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 70rem;
+    justify-content: center;
+    margin-top: -10rem;
+    position: relative;
+    z-index: 0;
+}
+
+.hero:before {
+    background: rgb(0 0 0 / 40%);
+    bottom: 0;
+    content: '';
+    height: 70rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.hero:after {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    bottom: 0;
+    content: '';
+    height: 70rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.hero .container .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .container .content h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    z-index: 5;
+}
+
+.hero .container .content h3 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 2.5rem 0 0;
+    z-index: 5;
+}
+
+.hero .container .content h4 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 2.5rem 0 0;
+    z-index: 5;
+}
+
+.hero .container .frm-email-signup {
+    align-content: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 2.4rem;
+    position: relative;
+    z-index: 5;
+}
+
+.hero .container .frm-email-signup .input-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.hero .container .frm-email-signup .input-group input {
+    background-color: rgba(22, 22, 22, 0.7);
+    border: 1px solid #bebebe;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    font-size: 1.6rem;
+    height: 5.6rem;
+    outline: none;
+    padding: 1.2rem 2.4rem;
+    width: 47.5rem;
+}
+
+.hero .container .frm-email-signup .input-group button::after {
+    content: "\1433"; /* Unicode for Canadian Syllabics Po ( > ) ( &#5171; ) */
+    margin-left: 10px;
+}
+
+/* FEATURE TV */
+.feature-tv {
+    height: 58.2rem;
+}
+
+.feature-tv .container .caixa {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.feature-tv .container .left {
+    width: 45%;
+}
+
+.feature-tv .container .caixa .right {
+    width: 50%;
+}
+
+.feature-tv .container .caixa .right .tv {
+    position: relative;
+}
+
+.feature-tv .container .caixa .right .tv img {
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+.feature-tv .container .caixa .right .tv .video {
+    left: 50%;
+    top: 46%;
+    position: absolute;
+    transform: translate(-49%, -47%);
+    z-index: 1;
+    -webkit-transform: translate(-49%, -47%);
+    -moz-transform: translate(-49%, -47%);
+    -ms-transform: translate(-49%, -47%);
+}
+
+/* FEATURE DEVICES */
+.feature-devices {
+    align-items: center;
+    display: flex;
+    height: 60rem;
+}
+
+.feature-devices .container .content {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.feature-devices .container .content .left {
+    display: flex;
+    width: 50%;
+}
+
+.feature-devices .container .content .left .devices {
+    position: relative;
+}
+
+.feature-devices .container .content .left .devices img {
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+.feature-devices .container .content .left .devices .video {
+    left: 50%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-49%, -75%);
+    z-index: 1;
+    -webkit-transform: translate(-49%, -47%);
+    -moz-transform: translate(-49%, -47%);
+    -ms-transform: translate(-49%, -47%);
+}
+
+.feature-devices .container .content .left .devices .video video {
+    width: 40rem;
+}
+
+.feature-devices .container .content .right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+/* FEATURE PROFILES */
+.feature-profiles {
+    align-items: center;
+    display: flex;
+    height: 62rem;
+}
+
+.feature-profiles .container .content {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.feature-profiles .container .content .left {
+    width: 40%;
+}
+
+.feature-profiles .container .content .right {
+    width: 55%;
+}
+
+.feature-profiles .container .content .right img {
+    width: 90%;
+}
+
+/* FEATURE OFFLINE */
+.feature-offline {
+    align-items: center;
+    display: flex;
+    height: 62rem;
+}
+
+.feature-offline .container .content {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-offline .container .content .left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -4rem;
+    width: 50%;
+}
+
+.feature-offline .container .content .left img {
+    width: 85%;
+}
+
+.feature-offline .container .content .left .download {
+    background-color: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.8rem;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -13rem;
+    padding: 1rem;
+    width: 29.5rem;
+}
+
+.feature-offline .container .content .left .download .cover {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-offline .container .content .left .download .cover img {
+    width: 4.7rem;
+}
+
+.feature-offline .container .content .left .download .cover .heading {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1.6rem;
+}
+
+.feature-offline .container .content .left .download .cover .heading h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.feature-offline .container .content .left .download .cover .heading h5 {
+    color: #0071eb;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.feature-offline .container .content .left .download .cover .gif {
+    background-image: url("../images/download-icon.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 6rem;
+    width: 4.8rem;
+}
+
+.feature-offline .container .content .right {
+    width: 40%;
+}
+
+/* FAQ - Frequently Asked Questions */
+.faq {
+    display: flex;
+    padding: 8rem 0 4.5rem;
+}
+
+.faq .container .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq .container .content h2 {
+    margin-bottom: 6rem;
+}
+
+.faq .container .content h3 {
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.faq .container .content p {
+    font-size: 1.9rem;
+}
+
+.faq .container .content .signup {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.faq .container .content .signup h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.faq .container .content .signup .frm-email-signup .input-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.faq .container .content .signup .frm-email-signup .input-group input {
+    background-color: rgba(22, 22, 22, 0.7);
+    border: 1px solid #bebebe;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    font-size: 1.6rem;
+    height: 5.6rem;
+    outline: none;
+    padding: 1.2rem 2.4rem;
+    width: 47.5rem;
+}
+
+.faq .container .content .signup .frm-email-signup .input-group button::after {
+    content: "\1433"; /* Unicode for Canadian Syllabics Po ( > ) ( &#5171; ) */
+    margin-left: 10px;
+}
+
+.faq .tab {
+    background-color: #303030;
+    margin-bottom: 7px;
+    position: relative;
+    width: 100%;
+}
+
+.faq .tab svg {
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 23px;
+    transform: rotate(45deg);
+    transition: all 0.2s ease;
+    width: 30px;
+}
+
+.faq .tab .tab-header {
+    border-bottom: 3px solid #000000;
+    cursor: pointer;
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 500;
+    padding: 30px 30px;
+    text-align: justify;
+}
+
+.faq .tab .tab-header:hover {
+    background-color: rgb(65,65,65);
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.faq .tab .tab-content {
+    font-size: 2.2rem;
+    font-weight: 300;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 30px;
+    text-align: justify;
+    transition: all 0.2s ease;
+}
+
+.faq .tab input[type="checkbox"] {
+    display: none;
+}
+
+.faq .tab input[type="checkbox"]:checked ~ .tab-content {
+    max-height: 600px;
+    padding: 30px 30px;
+}
+
+.faq .tab input[type="checkbox"]:checked ~ .tab-header svg {
+    transform: rotate(90deg);
+}
