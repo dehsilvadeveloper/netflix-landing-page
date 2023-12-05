@@ -9,7 +9,7 @@
 
 # Description
 
-This repository contains the code for a Netflix-inspired landing page using *HTML* and *CSS*. The project aims to recreate the visual design and layout of the Netflix landing page, working as knowledge refinement and skills showcase.
+This repository contains the code for a Netflix-inspired landing page using *HTML* and *CSS*. The project aims to recreate the visual design and layout of the Netflix landing page on december of 2023, working as knowledge refinement and skills showcase.
 
 # Features
 
@@ -24,7 +24,7 @@ To get started with this project, follow these steps:
 - Clone this repository:
 
 ```
-SOON
+git clone https://github.com/dehsilvadeveloper/netflix-landing-page.git
 ```
 
 - Open the project folder.
